@@ -1,1 +1,69 @@
-<mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/></root></mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.13">
+  <diagram name="Page-1" id="OGifPlukFu9WbFeJuZFH">
+    <mxGraphModel dx="1364" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.609;entryY=0.96;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.638;exitY=0.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RIWz7uakYFeR7b6xQk-1-22" target="RIWz7uakYFeR7b6xQk-1-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="340" as="sourcePoint" />
+            <mxPoint x="418.03999999999996" y="260.98800000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="221" as="sourcePoint" />
+            <mxPoint x="350" y="221" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-21" value="«interface»&lt;br&gt;&lt;b&gt;ClientInterface&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="355" y="140" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-22" value="Adapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-23" value="-adapter:Service" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RIWz7uakYFeR7b6xQk-1-22">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RIWz7uakYFeR7b6xQk-1-22">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-25" value="+method(data)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RIWz7uakYFeR7b6xQk-1-22">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RIWz7uakYFeR7b6xQk-1-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="389" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-27" value="Service" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="350" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RIWz7uakYFeR7b6xQk-1-27">
+          <mxGeometry y="26" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-30" value="+ Servicemethod(specialdata)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RIWz7uakYFeR7b6xQk-1-27">
+          <mxGeometry y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-32" value="client" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="190" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-33" value="client contains the business logic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-34" value="clientInterface contains the protocol other classes must follow to call its methods or to collaborate with client code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="20" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-35" value="Service is some legacy class that client cannot directly use because of its incompatible interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="230" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-36" value="Adapter implements the client interface and wraps the service object. the call from the client code via the client interface is translated into the calls that the wrapped service object understands" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="530" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RIWz7uakYFeR7b6xQk-1-37" value="&lt;b&gt;Advantage of adapter implementation :&lt;/b&gt;&lt;div&gt;The client code doesnt directly talk to the adapter , so we have the advantage of loose coupling. So in the future if there is a change in service, we can use a different adapter without modifying the client code, since the adapter is not directly linked to the client.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="170" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
